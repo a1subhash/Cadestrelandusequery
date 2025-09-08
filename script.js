@@ -93,11 +93,11 @@ function displayResults(results) {
         tr.innerHTML = `
             <td>${row.parcel_id}</td>
             <td>${row.landuse}</td>
-            <td>${row.area}</td>
-        `;
+          `;
         tbody.appendChild(tr);
     });
     table.appendChild(tbody);
     resultsDiv.appendChild(table);
 }
+
 

@@ -83,7 +83,6 @@ function displayResults(results) {
             <tr>
                 <th>कित्ता नं</th>
                 <th>भू-उपयोग क्षेत्र</th>
-                <th> क्षेत्रफल(ज.वि.)</th>
             </tr>
         </thead>
     `;
@@ -101,3 +100,4 @@ function displayResults(results) {
     table.appendChild(tbody);
     resultsDiv.appendChild(table);
 }
+
